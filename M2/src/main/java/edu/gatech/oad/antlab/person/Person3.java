@@ -43,7 +43,7 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	    String rand = "";
-		for (i = 0; i < input.length(); i++) {
+		for (int i = 0; i < input.length(); i++) {
 			rand = input.charAt(i) + rand;
 		}
 	    return rand;

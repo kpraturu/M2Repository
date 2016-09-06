@@ -40,7 +40,7 @@ public class Person5 {
       toReturn += input.charAt(i);
     }
     toReturn = toReturn + first + second;
-    return toReturn();
+    return toReturn;
   }
 	
   /**

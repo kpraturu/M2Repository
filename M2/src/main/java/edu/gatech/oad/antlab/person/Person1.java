@@ -30,8 +30,17 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 1 put your implementation here
-	  return null;
+	  String buffer = "";
+      if (input.length() <= 2) {
+        return input;
+      } else {
+        for (int i = 2; i < input.length(); i++) {
+            buffer += input.charAt(i);
+        }
+        buffer+= input.charAt(0);
+        buffer+= input.charAt(1);
+      }
+	  return buffer;
 	}
 	
 	/**

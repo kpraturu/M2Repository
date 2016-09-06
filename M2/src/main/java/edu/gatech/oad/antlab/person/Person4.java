@@ -32,7 +32,9 @@ public class Person4 {
     private String calc(String input) {
       String incString = "";
       for (int i = 0; i < input.length(); i++) {
-        incString += ++(input.charAt(i));
+        char potat = input.charAt(i);
+        potat++;
+        incString += potat;
       }
       return incString;
     }

@@ -1,6 +1,7 @@
 package edu.gatech.oad.antlab.person;
 
 import java.util.Collections;
+import java.util.Arrays;
 /**
  *  A simple class for person 2
  *  returns their name and a
@@ -34,7 +35,7 @@ public class Person2 {
 	  //Person 2 put your implementation here
 	  String ret = "";
 	  String[] inArr = input.split("");
-	  Collections.shuffle(inArr);
+	  Collections.shuffle(Arrays.asList(inArr));
 	  for (int i = 0; i < inArr.length; i++) {
 	  	ret += inArr[i];
 	  }

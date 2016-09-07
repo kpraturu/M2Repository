@@ -1,3 +1,5 @@
+apply plugin: 'java'
+
 dependencies {
     compile files('lib/resources.jar')
     testCompile group: 'junit', name: 'junit', version: '4.+'
@@ -15,7 +17,6 @@ jar {
 
 compileJava {}
 
-apply plugin: 'java'
 
 defaultTasks 'jar'
 

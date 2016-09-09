@@ -5,20 +5,14 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.+'
 }
 
-
 jar {
     manifest {
-	attributes 'Implementation-Title': 'M2_KavishPatel',
+    attributes 'Implementation-Title': 'M2_Gradle',
         'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-	'Class-Path': '../../lib/resources.jar'
+    'Class-Path': '../../lib/resources.jar'
     }
 }
 
-
 compileJava {}
 
-
 defaultTasks 'jar'
-
-
-
